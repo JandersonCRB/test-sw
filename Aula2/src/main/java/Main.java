@@ -36,8 +36,6 @@ public class Main {
     }
 
     public static void main(String args[]) {
-        List<String> list1 = Arrays.asList("alpha", "bravo", "charlie", "delta", "echo", "foxtrot");
-        List<String> list2 = Arrays.asList("The", "quick", "brown", "fox", "jumped", "over", "the", "lazy", "dog");
     }
 
 }

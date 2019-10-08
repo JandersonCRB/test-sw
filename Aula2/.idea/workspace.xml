@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d09d6205-f10d-4086-b0c1-864ebe099ace" name="Default Changelist" comment="" />
+    <list default="true" id="d09d6205-f10d-4086-b0c1-864ebe099ace" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+            <state relative-caret-position="420">
+              <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#903#904#0" expanded="true" />
@@ -29,18 +33,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="35" column="69" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
+            <state relative-caret-position="443">
+              <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aula2.iml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -103,6 +102,26 @@
             </path>
             <path>
               <item name="testsw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aula2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testsw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aula2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testsw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aula2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testsw" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -116,7 +135,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570564053099" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570564969396" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -146,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MainTest">
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aula2" />
       <option name="PACKAGE_NAME" value="" />
@@ -156,9 +175,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.ex2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aula2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="ex2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.ex3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aula2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="ex3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.ex5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aula2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="ex5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.ex6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aula2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="ex6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.ex6" />
+        <item itemvalue="JUnit.MainTest.ex5" />
+        <item itemvalue="JUnit.MainTest.ex3" />
+        <item itemvalue="JUnit.MainTest.ex2" />
       </list>
     </recent_temporary>
   </component>
@@ -172,38 +235,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570562036478</updated>
-      <workItem from="1570562041009" duration="2010000" />
+      <workItem from="1570562041009" duration="2925000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest - 2019.10.08 at 16h 37m 00s.xml">
+    <history-entry file="MainTest - 2019.10.08 at 16h 47m 41s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.10.08 at 16h 37m 19s.xml">
+    <history-entry file="MainTest - 2019.10.08 at 16h 54m 54s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.10.08 at 16h 38m 38s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
+    <history-entry file="MainTest_ex1 - 2019.10.08 at 16h 55m 09s.xml">
+      <configuration name="MainTest.ex1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.10.08 at 16h 41m 08s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
+    <history-entry file="MainTest_ex2 - 2019.10.08 at 16h 56m 49s.xml">
+      <configuration name="MainTest.ex2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.10.08 at 16h 42m 26s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
+    <history-entry file="MainTest_ex3 - 2019.10.08 at 16h 58m 19s.xml">
+      <configuration name="MainTest.ex3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.10.08 at 16h 43m 56s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
+    <history-entry file="MainTest_ex5 - 2019.10.08 at 17h 00m 34s.xml">
+      <configuration name="MainTest.ex5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.10.08 at 16h 44m 52s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
+    <history-entry file="MainTest_ex5 - 2019.10.08 at 17h 01m 02s.xml">
+      <configuration name="MainTest.ex5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.10.08 at 16h 47m 25s.xml">
+    <history-entry file="MainTest_ex5 - 2019.10.08 at 17h 02m 14s.xml">
+      <configuration name="MainTest.ex5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_ex5 - 2019.10.08 at 17h 02m 31s.xml">
+      <configuration name="MainTest.ex5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2019.10.08 at 17h 02m 39s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2010000" />
+    <option name="totallyTimeSpent" value="2925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -220,7 +289,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -244,6 +313,15 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/target/classes/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-426">
+          <folding>
+            <element signature="e#0#2142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -256,8 +334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        <state relative-caret-position="420">
+          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#903#904#0" expanded="true" />
@@ -268,8 +346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="35" column="69" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
+        <state relative-caret-position="443">
+          <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
