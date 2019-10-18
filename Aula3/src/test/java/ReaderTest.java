@@ -36,6 +36,6 @@ class ReaderTest {
     @Test
     void fileDoesNotExist() {
         String result = reader.readAll("nothing.txt");
-        assertEquals("", result);
+        assertNull(result);
     }
 }

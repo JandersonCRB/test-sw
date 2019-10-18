@@ -1,6 +1,5 @@
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
 
 public class Reader {
 
@@ -13,18 +12,17 @@ public class Reader {
      * @return text file as string
      */
     public String readAll(String path) {
+        File file = new File(path);
+        byte[] buffer = new byte[4096];
         try {
-            FileReader fr = new FileReader(path);
-
-            StringBuilder result = new StringBuilder();
-            int i;
-            while ((i=fr.read()) != -1){
-                result.append((char) i);
-            }
-            return result.toString();
+            FileInputStream fis = new FileInputStream(file);
+            int size = fis.read(buffer);
+            byte[] auxBuffer = new byte[size];
+            System.arraycopy(buffer, 0, auxBuffer, 0, size);
+            return new String(auxBuffer, StandardCharsets.UTF_8);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return "";
+        return null;
     }
 }
