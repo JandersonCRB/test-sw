@@ -4,7 +4,6 @@
     <list default="true" id="0d63e476-4da1-4ebb-b2fa-0a66a9deee09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReaderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,24 +27,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Reader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+            <state relative-caret-position="282">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1099#1100#0" expanded="true" />
-                <element signature="e#1131#1132#0" expanded="true" />
-                <element signature="e#1222#1223#0" expanded="true" />
-                <element signature="e#1283#1284#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/FileInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="231" column="15" selection-start-line="231" selection-start-column="15" selection-end-line="231" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -53,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="1470">
               <caret line="98" column="84" selection-start-line="98" selection-start-column="84" selection-end-line="98" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,42 +89,14 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Aula3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aula3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Aula3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aula3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Aula3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aula3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Aula3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aula3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571434503755" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571772596971" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -168,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReaderTest.nonUtfFile">
+  <component name="RunManager" selected="JUnit.ReaderTest">
     <configuration name="ReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aula3" />
       <option name="PACKAGE_NAME" value="" />
@@ -202,8 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReaderTest.nonUtfFile" />
         <item itemvalue="JUnit.ReaderTest" />
+        <item itemvalue="JUnit.ReaderTest.nonUtfFile" />
         <item itemvalue="JUnit.ReaderTest.fileDoesNotExist" />
       </list>
     </recent_temporary>
@@ -220,16 +178,11 @@
       <updated>1570827774360</updated>
       <workItem from="1570827778893" duration="1537000" />
       <workItem from="1571430896823" duration="3525000" />
+      <workItem from="1571770143828" duration="2049000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReaderTest - 2019.10.18 at 17h 50m 44s.xml">
-      <configuration name="ReaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReaderTest - 2019.10.18 at 17h 53m 31s.xml">
-      <configuration name="ReaderTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReaderTest - 2019.10.18 at 17h 54m 18s.xml">
       <configuration name="ReaderTest" configurationId="JUnit" />
     </history-entry>
@@ -254,9 +207,15 @@
     <history-entry file="ReaderTest - 2019.10.18 at 18h 28m 12s.xml">
       <configuration name="ReaderTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReaderTest - 2019.10.22 at 15h 54m 37s.xml">
+      <configuration name="ReaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReaderTest - 2019.10.22 at 16h 30m 03s.xml">
+      <configuration name="ReaderTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5062000" />
+    <option name="totallyTimeSpent" value="7111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -271,7 +230,7 @@
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.255119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -306,13 +265,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/nio/charset/StandardCharsets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -322,14 +274,21 @@
     </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="3105">
           <caret line="231" column="15" selection-start-line="231" selection-start-column="15" selection-end-line="231" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
+        <state relative-caret-position="1470">
           <caret line="98" column="84" selection-start-line="98" selection-start-column="84" selection-end-line="98" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -339,14 +298,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        <state relative-caret-position="282">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-            <element signature="e#1283#1284#0" expanded="true" />
           </folding>
         </state>
       </provider>

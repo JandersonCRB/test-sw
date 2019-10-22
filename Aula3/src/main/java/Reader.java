@@ -21,13 +21,11 @@ public class Reader {
             long expectedSize = f.length();
             byte[] buffer = new byte[(int) expectedSize];
 
-            int size = fis.read(buffer);
-            byte[] auxBuffer = new byte[size];
-            System.arraycopy(buffer, 0, auxBuffer, 0, size);
+            fis.read(buffer);
 
             fis.close();
             f.close();
-            return new String(auxBuffer, charset);
+            return new String(buffer, charset);
         } catch (IOException e) {
             e.printStackTrace();
         }
