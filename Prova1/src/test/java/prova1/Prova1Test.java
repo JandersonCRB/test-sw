@@ -18,6 +18,11 @@ class Prova1Test {
         ts = new TreeSet<>();
     }
 
+
+    /**
+     * This method simply adds the value 2 and check if
+     * it's inserted in TreeSet using contains method
+     */
     @Test
     void testAdd() {
         Integer mockValue = 2;
@@ -26,11 +31,19 @@ class Prova1Test {
         assertTrue(ts.contains(mockValue));
     }
 
+
+    /**
+     * Test if add method throws NullPointerException while
+     * trying to add a null value to set
+     */
     @Test
     void testAddNull() {
         assertThrows(NullPointerException.class, () -> ts.add(null));
     }
 
+    /**
+     * Tests if ceiling method is correctly returning what it's expected to
+     */
     @Test
     void testCeiling() {
         List<Integer> mockValues = Arrays.asList(5, 3, 10, 2, 2, 30, 999);
@@ -42,6 +55,21 @@ class Prova1Test {
         assertNull(ts.ceiling(1000));
     }
 
+    /**
+     * Test if ceiling method works well with min/max values
+     */
+    @Test
+    void testCeilingLimits() {
+        ts.add(Integer.MIN_VALUE);
+        assertEquals(Integer.MIN_VALUE, ts.ceiling(Integer.MIN_VALUE));
+        ts.add(Integer.MAX_VALUE);
+        assertEquals(Integer.MAX_VALUE, ts.ceiling(Integer.MAX_VALUE));
+        assertEquals(Integer.MAX_VALUE, ts.ceiling(0));
+    }
+
+    /**
+     * Testing if clear method is properly working
+     */
     @Test
     void testClear() {
         List<Integer> mockValues = Arrays.asList(5, 3, 10, 2, 2, 30, 999);
@@ -56,6 +84,9 @@ class Prova1Test {
 
     }
 
+    /**
+     * Testing if clone method is properly working
+     */
     @Test
     void testClone() {
         List<Integer> mockValues = Arrays.asList(5, 3, 10, 2, 2, 30, 999);
@@ -68,6 +99,10 @@ class Prova1Test {
         });
     }
 
+    /**
+     * Test if contains method is working by adding a mock value and
+     * checking if contains return the expected result
+     */
     @Test
     void testContains() {
         Integer mockValue = 2;
@@ -76,6 +111,9 @@ class Prova1Test {
         assertTrue(ts.contains(mockValue));
     }
 
+    /**
+     * Testing if last method properly returns the highest element
+     */
     @Test
     void testLast() {
         ts.add(2);
@@ -88,6 +126,10 @@ class Prova1Test {
         assertEquals(20, ts.last());
     }
 
+    /**
+     * Testing if remove method is working by adding and removing a value
+     * and checking if it was removed using contains
+     */
     @Test
     void testRemove() {
         Integer mockValue = 2;
