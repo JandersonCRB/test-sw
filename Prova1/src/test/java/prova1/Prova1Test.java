@@ -63,4 +63,23 @@ class Prova1Test {
         });
     }
 
+    @Test
+    void testContains() {
+        Integer mockValue = 2;
+        assertFalse(ts.contains(mockValue));
+        ts.add(mockValue);
+        assertTrue(ts.contains(mockValue));
+    }
+
+    @Test
+    void testLast() {
+        ts.add(2);
+        assertEquals(2, ts.last());
+        ts.add(0);
+        assertEquals(2, ts.last());
+        ts.add(20);
+        assertEquals(20, ts.last());
+        ts.add(-25);
+        assertEquals(20, ts.last());
+    }
 }
