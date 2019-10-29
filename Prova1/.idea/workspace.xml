@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11696325-4fd3-48b8-893d-8db667db54d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/prova1/Prova1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/prova1/Prova1Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/prova1/Prova1Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+            <state relative-caret-position="187">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#287#288#0" expanded="true" />
@@ -131,7 +130,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572375750130" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572376546394" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
   </component>
@@ -155,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Prova1Test">
     <configuration name="Prova1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Prova1" />
       <extension name="coverage">
@@ -171,9 +170,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Prova1Test.testCeiling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Prova1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prova1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="prova1" />
+      <option name="MAIN_CLASS_NAME" value="prova1.Prova1Test" />
+      <option name="METHOD_NAME" value="testCeiling" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Prova1Test.testClear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Prova1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prova1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="prova1" />
+      <option name="MAIN_CLASS_NAME" value="prova1.Prova1Test" />
+      <option name="METHOD_NAME" value="testClear" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Prova1Test" />
+        <item itemvalue="JUnit.Prova1Test.testCeiling" />
+        <item itemvalue="JUnit.Prova1Test.testClear" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +220,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572374160470</updated>
-      <workItem from="1572374167955" duration="1565000" />
+      <workItem from="1572374167955" duration="2282000" />
     </task>
     <servers />
   </component>
@@ -201,9 +234,30 @@
     <history-entry file="Prova1Test - 2019.10.29 at 16h 02m 23s.xml">
       <configuration name="Prova1Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Prova1Test - 2019.10.29 at 16h 02m 40s.xml">
+      <configuration name="Prova1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Prova1Test - 2019.10.29 at 16h 07m 48s.xml">
+      <configuration name="Prova1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Prova1Test_testClear - 2019.10.29 at 16h 13m 44s.xml">
+      <configuration name="Prova1Test.testClear" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Prova1Test_testClear - 2019.10.29 at 16h 13m 50s.xml">
+      <configuration name="Prova1Test.testClear" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Prova1Test - 2019.10.29 at 16h 13m 53s.xml">
+      <configuration name="Prova1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Prova1Test - 2019.10.29 at 16h 14m 04s.xml">
+      <configuration name="Prova1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Prova1Test - 2019.10.29 at 16h 14m 21s.xml">
+      <configuration name="Prova1Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1565000" />
+    <option name="totallyTimeSpent" value="2282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -260,8 +314,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/prova1/Prova1Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        <state relative-caret-position="187">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#287#288#0" expanded="true" />
