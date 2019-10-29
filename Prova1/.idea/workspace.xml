@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11696325-4fd3-48b8-893d-8db667db54d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/prova1/Prova1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/prova1/Prova1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prova1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Prova1.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/prova1/Prova1Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="218">
@@ -55,6 +55,15 @@
                 <element signature="e#3155#3156#0" expanded="true" />
                 <element signature="e#3236#3237#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Prova1.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -76,6 +85,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/prova1/Prova1Test.java" />
+        <option value="$PROJECT_DIR$/Prova1.iml" />
       </list>
     </option>
   </component>
@@ -163,7 +173,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572378670820" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572378746066" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -188,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Prova1Test.testContainsNull">
+  <component name="RunManager" selected="JUnit.Prova1Test">
     <configuration name="Prova1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Prova1" />
       <extension name="coverage">
@@ -270,8 +280,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Prova1Test.testContainsNull" />
         <item itemvalue="JUnit.Prova1Test" />
+        <item itemvalue="JUnit.Prova1Test.testContainsNull" />
         <item itemvalue="JUnit.Prova1Test.testCeilingLimits" />
         <item itemvalue="JUnit.Prova1Test.testAddNull" />
         <item itemvalue="JUnit.Prova1Test.testAdd" />
@@ -288,7 +298,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572374160470</updated>
-      <workItem from="1572374167955" duration="4496000" />
+      <workItem from="1572374167955" duration="4558000" />
     </task>
     <servers />
   </component>
@@ -325,7 +335,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4496000" />
+    <option name="totallyTimeSpent" value="4558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -336,9 +346,9 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.4991699" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.4991699" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5008301" side_tool="true" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -399,6 +409,13 @@
             <element signature="e#3155#3156#0" expanded="true" />
             <element signature="e#3236#3237#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prova1.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
         </state>
       </provider>
     </entry>
