@@ -82,4 +82,12 @@ class Prova1Test {
         ts.add(-25);
         assertEquals(20, ts.last());
     }
+
+    @Test
+    void testRemove() {
+        Integer mockValue = 2;
+        ts.add(mockValue);
+        ts.remove(mockValue);
+        assertFalse(ts.contains(mockValue));
+    }
 }
