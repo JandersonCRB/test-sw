@@ -15,7 +15,7 @@ class Prova1Test {
 
     @BeforeEach
     void resetTs() {
-        ts = new TreeSet<Integer>();
+        ts = new TreeSet<>();
     }
 
     @Test
@@ -24,6 +24,11 @@ class Prova1Test {
         assertFalse(ts.contains(mockValue));
         ts.add(mockValue);
         assertTrue(ts.contains(mockValue));
+    }
+
+    @Test
+    void testAddNull() {
+        assertThrows(NullPointerException.class, () -> ts.add(null));
     }
 
     @Test
