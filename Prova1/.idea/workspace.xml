@@ -46,12 +46,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/prova1/Prova1Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="130" column="52" selection-start-line="130" selection-start-column="52" selection-end-line="130" selection-end-column="52" />
+            <state relative-caret-position="218">
+              <caret line="102" column="68" lean-forward="true" selection-start-line="102" selection-start-column="68" selection-end-line="102" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#573#574#0" expanded="true" />
                 <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#3155#3156#0" expanded="true" />
+                <element signature="e#3236#3237#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,7 +163,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572378420084" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572378670820" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -186,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Prova1Test">
+  <component name="RunManager" selected="JUnit.Prova1Test.testContainsNull">
     <configuration name="Prova1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Prova1" />
       <extension name="coverage">
@@ -234,22 +236,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prova1Test.testCeiling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Prova1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="prova1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="prova1" />
-      <option name="MAIN_CLASS_NAME" value="prova1.Prova1Test" />
-      <option name="METHOD_NAME" value="testCeiling" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Prova1Test.testCeilingLimits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Prova1" />
       <extension name="coverage">
@@ -266,13 +252,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Prova1Test.testContainsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Prova1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prova1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="prova1" />
+      <option name="MAIN_CLASS_NAME" value="prova1.Prova1Test" />
+      <option name="METHOD_NAME" value="testContainsNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Prova1Test.testContainsNull" />
         <item itemvalue="JUnit.Prova1Test" />
         <item itemvalue="JUnit.Prova1Test.testCeilingLimits" />
         <item itemvalue="JUnit.Prova1Test.testAddNull" />
         <item itemvalue="JUnit.Prova1Test.testAdd" />
-        <item itemvalue="JUnit.Prova1Test.testCeiling" />
       </list>
     </recent_temporary>
   </component>
@@ -286,14 +288,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572374160470</updated>
-      <workItem from="1572374167955" duration="4232000" />
+      <workItem from="1572374167955" duration="4496000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Prova1Test - 2019.10.29 at 16h 15m 53s.xml">
-      <configuration name="Prova1Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Prova1Test - 2019.10.29 at 16h 19m 45s.xml">
       <configuration name="Prova1Test" configurationId="JUnit" />
     </history-entry>
@@ -321,9 +320,12 @@
     <history-entry file="Prova1Test - 2019.10.29 at 16h 41m 58s.xml">
       <configuration name="Prova1Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Prova1Test_testContainsNull - 2019.10.29 at 16h 50m 39s.xml">
+      <configuration name="Prova1Test.testContainsNull" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4232000" />
+    <option name="totallyTimeSpent" value="4496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -336,15 +338,15 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.4991699" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5008301" side_tool="true" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Messages" weight="0.3293348" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991699" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,12 +390,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/prova1/Prova1Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="130" column="52" selection-start-line="130" selection-start-column="52" selection-end-line="130" selection-end-column="52" />
+        <state relative-caret-position="218">
+          <caret line="102" column="68" lean-forward="true" selection-start-line="102" selection-start-column="68" selection-end-line="102" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#573#574#0" expanded="true" />
             <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#3155#3156#0" expanded="true" />
+            <element signature="e#3236#3237#0" expanded="true" />
           </folding>
         </state>
       </provider>

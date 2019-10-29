@@ -112,6 +112,14 @@ class Prova1Test {
     }
 
     /**
+     * Testing is contains properly throws a NullPointsException
+     */
+    @Test
+    void testContainsNull() {
+        assertThrows(NullPointerException.class, () -> ts.contains(null));
+    }
+
+    /**
      * Testing if last method properly returns the highest element
      */
     @Test
